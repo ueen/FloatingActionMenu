@@ -1,6 +1,7 @@
 package de.ueen.fabmenu
 
 import android.content.Context
+import android.content.res.ColorStateList
 import android.graphics.drawable.InsetDrawable
 import android.os.Build
 import android.util.AttributeSet
@@ -74,7 +75,7 @@ class FloatingActionMenu @JvmOverloads constructor(
         attributes.getDrawable(R.styleable.FloatingActionMenu_icon)?.let { icon ->
             fab.setImageDrawable(icon)
         }
-        fab.setBackgroundColor(
+        setFabColor(
             attributes.getColor(R.styleable.FloatingActionMenu_color,
                 ContextCompat.getColor(context, R.color.design_default_color_secondary))
         )
@@ -197,7 +198,7 @@ class FloatingActionMenu @JvmOverloads constructor(
     }
 
     fun setFabColor(color: Int) {
-        fab.setBackgroundColor(ContextCompat.getColor(context, color))
+        fab.backgroundTintList = ColorStateList.valueOf(color)
     }
 
     fun selectActionItemToFab(tag: String) {
