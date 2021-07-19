@@ -1,7 +1,8 @@
-# Floating Action Menu
+# Floating Action Menu [![](https://jitpack.io/v/ueen/fabmenu.svg)](https://jitpack.io/#ueen/fabmenu)
+
 100% Kotlin
 
-
+![ezgif-4-c8a35ef29f21](https://user-images.githubusercontent.com/5067479/126224971-c5b77066-0783-4384-9da1-99efbd77f14a.gif)
 
 ## Implementation
 
@@ -68,6 +69,8 @@ fam.setOnActionClickListener(selectable = true) { actionItem ->
 
 ### Example
 Theres an example App in the app module, check it out!
+
+![ezgif-4-4ebd23936524](https://user-images.githubusercontent.com/5067479/126225107-787db460-581b-4755-b50e-afb84f49d321.gif)
 
 
 ### License
