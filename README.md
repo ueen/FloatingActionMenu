@@ -1,4 +1,4 @@
-# Floating Action Menu [![](https://jitpack.io/v/ueen/fabmenu.svg)](https://jitpack.io/#ueen/fabmenu)
+# Floating Action Menu [![](https://jitpack.io/v/ueen/FloatingActionMenu.svg)](https://jitpack.io/#ueen/FloatingActionMenu)
 
 100% Kotlin
 
@@ -19,7 +19,7 @@ allprojects {
 Step 2. Add the dependency
 ```groovy
 dependencies {
-	implementation 'com.github.ueen:fabmenu:1.1'
+	implementation 'com.github.ueen:FloatingActionMenu:1.1'
 }
 ```
 
