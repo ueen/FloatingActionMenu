@@ -19,7 +19,7 @@ allprojects {
 Step 2. Add the dependency
 ```groovy
 dependencies {
-	implementation 'com.github.ueen:fabmenu:1.0'
+	implementation 'com.github.ueen:fabmenu:1.1'
 }
 ```
 
