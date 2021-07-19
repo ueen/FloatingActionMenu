@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatingActionMenu">
+        <attr name="useCompatPadding" format="boolean" />
+        <attr name="icon" format="reference" />
+        <attr name="color" format="color" />
+        <attr name="extrudeColor" format="color" />
+    </declare-styleable>
+</resources>
